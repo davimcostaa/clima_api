@@ -11,6 +11,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    background-position: center;
+    background-size: cover;
 }
 
 .hide {
@@ -76,6 +79,11 @@ body {
 
 #country {
     height: 30px;
+}
+
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 #description-container {
